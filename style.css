@@ -1,0 +1,169 @@
+body{
+    margin: 0 auto;
+    width: 100vw;
+    height: 200vw;
+    background-image: url(./assets/gradient-violet-bg.jpg);
+    font-family: 'Roboto', sans-serif;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 0px;    
+    height: 200vw;
+    width: 100vw;
+  }
+  .grid-container > div {
+    text-align: center;
+    padding: 20px 0;
+    font-size: 30px;
+  }
+  
+.kastLogo {
+    grid-column-start: 1;
+    grid-column-end: 1;
+    grid-row-start: 1;
+    position: sticky;
+    top: 0px;
+    
+}
+
+.kastLogo img {
+    width: 20%;
+    height: 80px;
+    float: left;
+    margin-top: 0px;
+    margin-left: 0px;
+    background-color: rgba(255, 0, 255, 0.2);
+    
+}
+
+.navBar{
+    grid-row-start: 1;
+    grid-row-end: 1;
+    grid-column-start: 2;
+    grid-column-end: 4;
+    position: sticky;
+    top: 0;
+    float: right;
+    margin-right: 30px;
+    background-color: rgba(255, 0, 255, 0.2);
+}
+
+.navBar li {
+    display: inline;
+    list-style-type: none;
+    font-size: 20px;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.navBar a, li {
+    text-decoration: none;
+    color: white;
+    margin-top: -100px;
+}
+
+.open-kast {
+    display: inline-block;
+    list-style-type: none;
+    font-size: 20px;  
+    border-style: solid;
+    border-radius: 3px;
+    border-color: white;
+    border-width: 1px;
+    
+}
+
+.landing {
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    text-align: center;
+    color: white;
+    margin-top: 10%;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+.landing button {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+    margin-top: 30px;
+    background-color: #fe9000;
+    color: white;
+    width: 200px;
+    height: 50px;
+    font-size: 20px;
+}
+
+.whiteSpace{
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 2;
+    grid-row-end: 3;    
+    background-color: white;
+    width: 100vw;
+}
+
+.whiteSpace img {
+    display: inline;
+    margin: 50px;
+    margin-bottom: 200px;
+    width: 20%;
+    height: 20;
+}
+
+.whiteSpace h3 {
+    text-align: center;
+    font-size: 40px;
+    margin: 70px;
+    margin-top: 200px;
+    margin-bottom: 150px;
+}
+
+.whiteSpace h4 {
+    text-align: center;
+    font-size: 30px;
+    margin: 40px;
+}
+
+.what {
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 3;
+    grid-row-end: 4;
+    background-image: url("./assets/green-bg.jpg");
+    width: 100vw;
+    color: white;
+    margin-top: -10px;
+    margin-bottom: -1000px;
+}
+
+.what h1{
+    text-align: center;
+    margin-bottom: 0px;
+    font-size: 50px;
+    margin-top: 200px;
+}
+
+.what p {
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+.what button {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+    margin-top: 30px;
+    background-color: #fe9000;
+    color: white;
+    width: 200px;
+    height: 50px;
+    font-size: 20px;
+}
